@@ -1,0 +1,453 @@
+    h1{
+        font-size: 38px;
+        text-align: left;
+        color: #38686A;
+        font-family:serif;
+        position: absolute;
+        width: 200px;
+        top: 200px;
+        left: 45px;
+        }
+    h2 {
+        font-size: 30px;
+        color: 	#3C3C3C;
+        font-family:  "Microsoft JhengHei";
+        margin: 0 20% 0 20%;
+        letter-spacing: 3px;
+    }   
+    h3{
+        font-size: 23px;
+        text-align: "Microsoft JhengHei";     
+    }
+    h4{
+        font-size: 25px;
+        text-align: "Microsoft JhengHei" ; 
+        padding: 20px;
+        color: #3D7878;
+    }
+    .text3{
+        text-align: right;
+        text-decoration: overline;
+        text-decoration-color: #F00;
+        letter-spacing: 3px;
+    }
+    .list{
+        text-align: center ;font-family:  "Microsoft JhengHei" ;list-style-type:none;margin:0px;float:right;
+    }
+    .list li{
+        float:left;
+        margin-right:5px;
+        margin-top:30px;
+    }
+    .list li line{
+        font-family:  "Microsoft JhengHei";
+        font-size: 10px;
+    }
+    a{
+     text-decoration:none;    
+    }
+    a:link{
+        color:#3D7878;    
+    }
+    a:visited{
+        color:#3D7878;    
+    }
+        
+    .list a:hover{
+        color:#FFA042;        
+    }
+
+    .wrap{
+        display: flex;
+        justify-content: space-between;
+    }
+    .place{
+        background:#C48888;text-align: center; 
+        text-decoration-color: #AD5A5A;text-shadow: 3px 4px 5px red;
+    }
+    .wrap１{
+        margin:0 auto;
+        width:70%;
+    }
+     *{
+        margin: 0px;
+        font-size: 40px;
+    }
+    #header{
+        height: 150px;
+    }
+    #header img{
+        width: 100%;
+        height: 100%;
+    }
+    #wrapper{
+        float:left;
+        width:100%;
+        background-color:  #CDC6AE;
+    }
+    #main{
+        clear:both;
+        height: 70px;
+        background-color:  #CDC6AE;
+        letter-spacing: 7px;
+    }
+    #leftside{
+        float:left;
+        width:20%;
+        margin-left:-100%;
+        background-color: white;
+    }
+    #rightside{
+        float:left;
+        width:15%;
+        margin-left:-15%;
+        background-color: white;
+    }
+    #footer{
+        clear:both;
+        height: 120px;
+        background-color: #CDC6AE;
+    }
+    .top-links {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-transform: uppercase;
+    }
+
+
+
+
+    #indexheader{
+        height: 100px;
+        font-family: "Microsoft JhengHei";
+        text-align:center;
+        text-decoration: underline overline;
+        font-weight: bolder;
+        color:darkolivegreen;  
+    }
+    #indexre1{
+        margin: 0 10% 0 20%;
+    }
+    #indexre2{
+        margin: 0 20% 0 10%;
+    }
+    #indexre3{
+        margin: 0 10% 0 20%;
+    }
+    #indexre4{
+        margin: 0 20% 0 10%;
+    }
+    #indexleft{
+        float:left;
+        width:20%;
+        margin-left:-100%;
+    }
+    #indexright{
+        float:left;
+        width:15%;
+        margin-left:-15%;
+    } 
+    #indexfooter{
+        clear:both;
+        height: 50px;
+        width: 170px;
+        float:right;
+        background-color:#E0E0E0;
+        border-radius:10px;
+    }
+    #indexfooter a{
+        color:	#003E3E;
+        font-size:30px;
+    }
+    .picture0{
+        font-family:  "Microsoft JhengHei";
+        font-size: 20px;
+        text-align: center;
+        float: left;
+        opacity: 1;
+    }  
+    .picture0:hover{
+        opacity: 0.3;   
+    }
+    .picture0 img{ 
+        width: 250px;
+        height: 200px;
+        border-radius:10px; 
+    }
+    .picture1{
+        font-family:  "Microsoft JhengHei";
+        font-size: 20px;
+        text-align: center;
+        float: right;
+        opacity: 1;
+    }
+    .picture1:hover{
+        opacity: 0.3;   
+    }
+    .picture1 img{ 
+        width: 250px;
+        height: 200px;
+        border-radius:10px; 
+    }
+        
+    #foodheader{
+        font-size: 36px;
+        color: 	#BB5E00;
+        font-family: "Microsoft JhengHei";
+        margin: 5% 20% 5% 20%;
+        text-align: center;
+        letter-spacing: 5px;
+        font-weight:bolder;
+    }
+    #foodre{
+        margin: 0 5% 0 5%;
+        background-color: white;
+    }
+    .foodtitle a{
+        font-size: 40px;
+        font-family:  "Microsoft JhengHei";
+        color: 	#336666;
+        font-weight: bolder;
+    }
+    .foodpic{
+        padding: 0 0 0 10px;
+        height: auto;
+        float: left;
+    }
+    .foodpic img{   
+        padding: 10px ;
+        border-radius:30px; 
+        width: 300px;
+        height: 230px; 
+    }
+    .foodtext{
+        margin: 0 10 50 25%;
+        padding: 5px ;
+        font-family: "Microsoft JhengHei";
+        font-size: 26px;
+        color:	#4F4F4F;
+        background-color: #DEDEBE;
+        letter-spacing: 5px;
+        border-radius: 20px;
+    }
+    .foodtext a{
+        color:#38686A;
+        font-size: 28px;
+        float:right;
+        font-family: 'BiauKai';
+    }
+    .social{
+        padding: 5px ;
+        margin: 3% 5% 3% 5%;
+    }
+    .social img{
+        width: 50px;
+        height: 50px;
+       
+    }
+    #social-1{
+        margin: 0 1%; 
+        float: right;
+    }
+    #social-2{
+        margin: 0 1%; 
+        float: right;
+    }
+    #social-2 img{
+        border-radius: 8px;
+    }
+    #social-3{
+        margin: 0 1%; 
+        float: right;
+    }
+    #social-3 img{
+        border-radius: 8px;
+    }
+    #social-4{
+        margin: 0 1%; 
+        float: right;
+    }
+    #social-4 img{
+        border-radius: 8px;
+    }
+    #foodfooter{
+        clear:both;
+        margin: 3% 5% 3% 5%;
+        height: 3px;
+        background-color:#616130;   
+    }
+    .foodname{
+        margin: 3% 5% 3% 5%;
+        color: 	#336666;
+        letter-spacing: 5px;
+        font-size: 34px;
+        text-align: left;
+        text-decoration: underline;text-decoration-color: 	#336666;letter-spacing: 5px;
+        font-family: Courier;
+        }  
+    .foodinfor{
+        margin: 0 10% 0 10%;
+        }   
+    .foodex{
+        margin: 0 10% 0 12%;
+        }   
+    .foodinfor table {
+        margin: 0 12.5% 0 12.5% ;
+        color: 	#3C3C3C;
+        font-size: 24px;
+        align-content: center;
+        } 
+    .foodinfor table caption{
+        color: 	#336666;
+        font-size: 44px;
+        }    
+    .foodinfor table tr {
+        color: 	#3C3C3C;
+        font-size: 30px;
+        }     
+    .foodinfor table tr td{
+        color: 	#3C3C3C;
+        font-size: 30px;
+        } 
+    .food{
+        margin: 0 10% 0 10% ;
+    }
+ 
+    .food img{
+        padding: 10px ;
+        border-radius:30px; 
+        width: 300px;
+        height: 230px;
+    }
+    .video{
+        padding: 10px ; 
+        margin: 2% 8% 0 8%;
+        font-size: 42px;
+        color: 	#336666;
+        text-align: center;
+        font-family:  "Microsoft JhengHei";
+        text-decoration:underline;
+    }
+    .videoinfor{
+        margin: 1% 20% 1% 20%;
+        font-family: "Microsoft JhengHei";
+        font-size: 24px;
+        color:	#4F4F4F;
+        letter-spacing: 2px;
+
+    }
+    .videoinfor a{
+        font-family: "Microsoft JhengHei";
+        font-size: 24px;
+        color:	#616130;
+        font-weight: bolder;
+        letter-spacing: 2px;
+    }
+    .videotitle{
+        margin: 1% 20% 1% 20%;
+        font-family: "Microsoft JhengHei";
+        font-size: 26px;
+        color:	#4F4F4F;
+        letter-spacing: 2px;
+        font-weight: 400;
+    }
+
+    .readmore a{
+        color: 	#3C3C3C;
+        font-size: 26px;  
+        text-decoration: underline;
+        color:#EA7500;
+    }
+
+
+
+    #personalmain{
+        margin: 0 60px;
+        float: center;
+    }
+    #personalmain legend{
+        font-size: 40px;
+        font-family:  "Microsoft JhengHei"; 
+        color: #38686A;
+        font-weight: bold;
+    }
+    .personal{
+        margin: auto;
+        font-size: 25px;
+        font-family:  "Microsoft JhengHei"; 
+        float:center;
+    }
+    .personal1{
+        margin: 0 2% 0% 10%;
+        font-size: 25px;
+        font-family:  "Microsoft JhengHei"; 
+        float:left;
+    }
+    .personal1 input{
+        margin: 0 10% 10% 10%;
+        float: center;
+        color:	#38686A;
+        font-size: 25px;
+        font-family:  "Microsoft JhengHei";  
+        padding: 2px 8px;
+        font-weight: bold;
+        letter-spacing: 3px;
+    }
+    .personal2{
+        margin: 0 10% 0% %;
+        font-size: 25px;
+        font-family:  "Microsoft JhengHei"; 
+        float:left;
+    }
+    .personal2 input{
+        margin: 0 10% 10% 10%;
+        float: center;
+        color:	#38686A;
+        font-size: 25px;
+        font-family:  "Microsoft JhengHei";  
+        padding: 2px 8px;
+        font-weight: bold;
+        letter-spacing: 3px;
+    }
+    .personal label{
+        font-size: 25px;
+        font-family:  "Microsoft JhengHei";   
+    }
+    .personal option{
+        font-size: 25px;
+        font-family:  "Microsoft JhengHei";   
+    }
+    .personal input{
+        float: center;
+        color:	#005757;
+        font-size: 25px;
+        font-family:  "Microsoft JhengHei";  
+        padding: 2px 8px;
+    }
+    .select{
+        padding: 2px 8px;
+        color: #333333;
+        background-color: #eeeeee;
+        border: 1px solid #dddddd;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 25px;
+    }
+
+    #personalfooter{
+        clear:both;
+        height: 100px;
+    }
+
+    .backto{
+        padding: 10 30px;
+        float: right;
+        font-family:  "Microsoft JhengHei";
+        background: #5b9a68;
+	    display: inline-block;
+        color: white;
+    }
+   body {
+        cursor: url(images/carrot.png), auto;
+        }

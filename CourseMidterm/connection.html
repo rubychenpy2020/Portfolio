@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="utf-8">
+        <title>素食介紹</title>
+        <link href="myCSS.css"  rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <div id="header"><img src="images/vegetable.png" ></div>
+        <div id="main"> <a href="index.html"><h1>VEGETARIAN</h1></a></div>
+        <div id="footer"><nav>
+		  <ul class="list">
+            <li><a href="index.html"><h3>首頁</h3></a></li>
+            <li class="line"><h3>l</h3></li>
+            <li><a href="sanxia.html" ><h3>三峽·</h3></a></li>
+            <li><a href="zonyon.html" ><h3>中和·</h3></a></li> 
+            <li><a href="banqiao.html" ><h3>板橋·</h3></a></li>
+            <li><a href="shilin.html" ><h3>士林</h3></a></li>
+            <li><h3>l</h3></li>
+            <li><a href="connection.html" ><h3>聯絡我們</h3></a></li>
+        </ul>
+    </nav></div>
+    </body><br>  
+    
+    <body> 
+   
+        <div id="personalmain">
+        <form>
+         <fieldset>
+             <legend>個人資訊</legend>
+             <div class="personal">
+             姓名:<input type="text"><br>
+             性別:<input type="radio" name="gender" id="male" value="male">
+                 <label for="male">男</label>  
+                 <input type="radio" name="gender" id="female" value="female">
+                 <label for="female">女</label><br>
+             手機號碼：<input type="text"><br>
+             電子信箱：<input type="text"><br>
+        </div>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>問題內容</legend>
+            <div class="personal">
+            問題:<select id="question" name="question" class="select">
+              <option value="corporation">合作邀約</option>
+              <option value="report">問題回報</option>
+              <option value="experience">心得分享</option>  
+              <option value="other">其他</option>
+            </select><br><br>
+            素食主義:<select id="vegan" name="vegan" class="select">
+              <option value="vegan all">全素</option>
+              <option value="Ovolactin">蛋奶素</option>
+              <option value="egg">蛋素</option>  
+              <option value="milk">奶素</option> 
+              <option value="Pentacin">五辛素</option>
+            </select><br><br>
+            您為何吃素(可複選)?<br>
+            <label><input type="checkbox" name="vegan1" value="religion"> 宗教因素</label>
+            <label><input type="checkbox" name="vegan2" value="accompany"> 跟隨家人</label>
+            <label><input type="checkbox" name="vegan4" value="Votive"> 還願</label>
+            <label><input type="checkbox" name="vegan3" value="dontlike"> 不喜歡吃肉</label>
+            <label><input type="checkbox" name="vegan4" value="Environmental "> 環保</label>
+            <label><input type="checkbox" name="vegan5" value="other"> 其他</label>
+            <br><br>
+            您的回饋:<br>
+            <label for="w3review"></label>
+            <textarea  cols="20" rows="4" Wrap="Physical"></textarea>
+            </div>
+        </fieldset>
+        
+        <br>
+        <div class="personal1">
+            <input type="reset" value="清除資料" />
+        </div>
+        <div class="personal2">
+            <input type="submit" value="傳送資料" />
+        </div>
+   
+    </form> 
+    </div> 
+    <div id="personalfooter">
+    </div>
+       
+    </body>
+    
+</html>
